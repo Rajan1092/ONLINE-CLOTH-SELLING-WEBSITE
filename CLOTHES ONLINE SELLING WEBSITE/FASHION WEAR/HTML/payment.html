@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Payment</title>
+        <link rel="icon" type="image/ico" href="../IMAGES/Icon/dd.png">
+        <link rel="stylesheet" type="text/css" href="../CSS/login.css">
+        <!-- <script src="../jQuery/jquery-3.5.0.js"></script> -->
+        <!-- <script src="../JS/payment.js"></script> -->
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                <nav id="top-nav">
+                    <ul id="icon">
+                        <div class="cus-serv">
+                            <li><a href="./cutomerService.html">Customer Service</a></li>
+                        </div>
+                        <div class="cus-log">
+                            <li><a href="./frontpage.html">Log out</a></li>
+                        </div>
+                    </ul>    
+                </nav>
+
+                <div id="logo">
+                    <h1>RAJAN VANIKAR</h1>
+                </div>
+              
+                <nav id="nav-bar">
+                    <ul>
+                        <li><a href="catalog.html">Home</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div id="carry">
+        <h5>Welcome <span id="userSalutation"></span> <span id="userFName"></span> <span id="userLName"></span>,</h5>
+        </div>
+
+            <form class="payContainer" id="hide" name="myForm" action="./end.html" onsubmit="return required()">
+                <h2>CHECKOUT PAYMENT</h2>
+                
+                <div id="method1"> 
+                    <input type="radio" name="pay" id="radio1" onclick="if(this.checked){showContent()}">
+                    <label> Card</label>
+                </div>
+                <div id="method2">
+                    <input type="radio" name="pay" id="radio2" target="_blank" onclick="if(this.checked){radioBtn()}">
+                    <label> Paypal</label>
+                </div>
+
+                
+                <br>
+                <div id="content">
+                    <div id="sidepay1">
+                        <label for="fName" id="fname">First Name required*</label><br>
+                        <input type="text" placeholder="payment card info first name" name="fName">
+                    </div>
+                    <div id="sidepay2">
+                        <label for="lName" id="lname">Last Name required*</label>
+                        <input type="text" placeholder="payment card info last name" name="lName">
+                    </div>
+                    <br>
+                    <div id="card">
+                        <label for="cardNum" id="cNum">Card Number required*</label><br>
+                        <input type="text" placeholder="payment card number" name="cNum" id="carNum"><br>
+                        <label for="cardDate" id="cDate">Card Expiry Date required*</label><br>
+                        <select id="months" name="selMon">
+                            <option value="01">January</option>
+                            <option value="02">February </option>
+                            <option value="03">March</option>
+                            <option value="04">April</option>
+                            <option value="05">May</option>
+                            <option value="06">June</option>
+                            <option value="07">July</option>
+                            <option value="08">August</option>
+                            <option value="09">September</option>
+                            <option value="10">October</option>
+                            <option value="11">November</option>
+                            <option value="12">December</option>
+                        </select>
+                        <select id="year" name="selYr">
+                            <option value="20"> 2020</option>
+                            <option value="21"> 2021</option>
+                            <option value="21"> 2022</option>
+                            <option value="21"> 2023</option>
+                        </select>
+                        <br>
+                        <label for="cardCvv" id="cvv">Card CVV required*</label><br>
+                        <input type="password" placeholder="paymnet card cvv" name="cvv" id="carCVV"><br>
+                    </div>
+        
+                    <br>
+                        <button id="pymnt" type="submit" value="submit">CONFIRM PAYMENT</button>
+                </div>
+
+                    <button id="can"><a href="../HTML/checkout.html">Cancel</a></button>
+
+            </form>
+    
+    
+            <footer>
+                <section  class="foot-contain">
+                <div id="fbook">
+                    <a href="https://www.facebook.com/" target="_blank"><img src="../IMAGES/HOME/facebook_color.png"></a>
+                </div>
+                <div id="twit">
+                    <a href="https://twitter.com/explore" target="_blank"><img src="../IMAGES/HOME/twitter_color.png"></a>
+                </div>
+                <div id="utube">
+                    <a href="https://www.youtube.com" target="_blank"><img src="../IMAGES/HOME/youtube_color.png"></a>
+                </div>
+                <div id="insta">
+                    <a href="https://www.instagram.com/" target="_blank"><img src="../IMAGES/HOME/instagram_color.png"></a>
+                </div>
+            </section>
+                
+                <div id="created">
+                    <p>Created by RAJAN VANIKAR</p>
+                </div>
+    
+            </footer>
+    
+        </body>
+        <script src="../JS/payment.js"></script>
+    </html>

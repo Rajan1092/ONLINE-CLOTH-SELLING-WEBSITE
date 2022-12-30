@@ -1,0 +1,107 @@
+body{
+    font-family: sans-serif;
+    width: 100%;
+    margin: auto;
+}
+
+.img1{
+    width: 1500px;
+    height: 850px;
+    object-fit: cover;
+    position: relative;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+.img2{
+    width: 1500px;
+    height: 850px;
+    object-fit: cover;
+    position: relative;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+.head{
+    position: fixed;
+    text-transform: uppercase;
+    color: #25203b;
+    font-size: 80px;
+    top: 35%;
+    left: 33%;
+    opacity: 0.6;
+}
+
+.btn{
+    position: fixed;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #273544;
+    top: 60%;
+    left: 55%;
+    background: none;
+    padding: 5px;
+    opacity: 0.6;
+    border-color: #273544;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #273544;
+}
+
+
+.btn a:hover{
+    cursor: pointer;
+    color: #0f0f14;
+    opacity: 1;
+}
+
+.name{
+    position: fixed;
+    top: 90%;
+    left: 85%;
+    color: #273544;
+    opacity: 0.8;
+    margin-right: auto;
+}
+
+/*to make website more rsponsive*/
+@media(max-width:768px){
+    .img1, .img2,
+    .head, .btn,
+    .name{
+        float: none;
+        text-align: center;
+        width: 100%;
+        line-height: 1.00em;
+    }
+
+    .head{
+        text-align: left;
+        font-size: 60px;
+        display: block;
+        width: auto;
+        margin-top: 90px;
+    }
+
+    .btn{
+        text-align: left;
+        display: block;
+        margin-top: 60px;
+        font-size: 20px;
+        width: auto;
+    }
+
+    .name{
+        text-align: left;
+        display: block;
+        font-size: 15px;
+        width: auto;
+        margin: auto;
+        line-height: 1.2em;
+    }
+}
+/*768px is tablest size or less*/

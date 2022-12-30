@@ -1,0 +1,588 @@
+body{
+    background: url("../IMAGES/HOME/photo-1670574250042-2efcc9918447.png") no-repeat center center fixed;
+    background-size: cover;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 0;
+    width: 100%;
+    margin: auto;
+}
+
+
+.container{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+nav ul{
+    padding: 0px;
+    padding-left: 30px;
+    margin-left: auto;
+}
+
+nav #icon li{
+    list-style-image: url('../IMAGES/HOME/support.png');
+}
+
+
+.cus-serv li, .cus-log li{
+    display: inline;
+    padding: 0px;
+    font-size: 20px;
+}
+
+.cus-serv a{
+    text-decoration: none;
+    color: #273544;
+    font-family: cursive;
+    float: left;
+}
+
+.cus-log a{
+    text-decoration: none;
+    color: #273544;
+    font-family: cursive;
+    float: right;
+    margin-right: 40px;
+}
+
+.container #top-nav a:hover{
+    font-weight: bold;
+    color: #b35d75;
+}
+
+
+#logo{
+    text-align: center;
+    font-family: cursive;
+    font-size: 25px;
+    color: #b35d75;
+    margin: auto;
+    margin-top: 80px;
+}
+header nav{
+    text-align: center;
+}
+
+header li{
+    display: inline;
+    padding: 0 30px 30px 0;
+}
+
+header #nav-bar{
+    padding-bottom: 0px;
+}
+
+header #nav-bar a{
+    text-decoration: none;
+    color: #273544;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.container #nav-bar a:hover{
+    font-weight: bold;
+    color: #b35d75;
+}
+
+/* ------------------------------------------------------LOG IN--------------------------------------------------------------- */
+#login{
+    box-sizing: border-box;
+    opacity: 0.7;
+    width: 40%;
+    height: auto;
+    /* background-color: #b8b9b1; */
+    margin: auto;
+    padding: 15px;
+    background: none;
+}
+
+#login h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #1c2631;
+}
+
+.contain-login input{
+    display: block;
+    padding: 10px;
+    margin-top: 0px;
+    width: 80%;
+    margin: auto;
+    font-size: 12px;
+}
+
+.contain-login label{
+    display: block;
+    padding: 20px 40px 5px 20px;
+    width: 80%;
+    margin-top: 0px;
+    margin: auto;
+    font-size: 15px;
+    color: #1c2631;
+}
+
+.contain-login button{
+    display: block;
+    padding: 12px;
+    width: 84.5%;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contain-login button a{
+    text-decoration: none;
+    color: #273544;
+}
+
+.contain-login button:hover{
+    background-color: #916873;
+    text-transform: uppercase;   
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.service{
+    text-align: justify;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.service h2{
+    margin-top: 50px;
+    text-align: center;
+    font-family: cursive;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(80, 78, 78);
+}
+
+.service li{
+    list-style: none;
+}
+
+#chat, #email, #smedia{
+    border-bottom: 1px solid rgb(80, 78, 78);
+    font-size: 15px;
+}
+
+#chat p, #email p, #smedia p{
+    margin-left: 20px;
+}
+
+#smedia a{
+    text-decoration: none;
+    color: black;
+}
+
+#smedia a:hover{
+    font-weight: bold;
+}
+
+/* ----------------------------------------------CARRY INFO-------------------------------------------------------------- */
+.carryPurchase{
+    width: 50%;
+    margin: auto;
+    border: 1px solid black;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.carryPurchase div{
+    padding: 3px;
+}
+
+.grandTotal, .inclPrice{
+    border-top: black 1px solid;
+}
+
+
+
+/* ----------------------------------------------PERSONAL INFO-------------------------------------------------------------- */
+
+.perContainer{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    font-size: 15px;
+}
+
+#side1, #side2{
+    display: inline-block;
+    margin-right: 50px;
+}
+.perInfo{
+    line-height: 1em;
+    /* word-spacing: 0.2em; */
+}
+
+.emailInfo input{
+    border-color: #ccc;
+}
+
+#side1 input{
+    width: 100%;
+    margin: auto;
+    margin-right: 150px;
+    margin-top: 5px;
+    padding: 5px;
+    margin-bottom: 14px;
+    border-color: #ccc;
+    outline: none !important;
+}
+#side2 input{
+    width: 100%;
+    margin: auto;
+    margin-right: 150px;
+    margin-top: 5px;
+    padding: 5px;
+    margin-bottom: 14px;
+    box-sizing: border-box;
+    border-color: #ccc;
+    outline: none !important; 
+}
+
+.perContainer input{
+    width: 25%;
+    margin: auto;
+    padding: 5px;
+    margin-bottom: 14px;
+    margin-top: 5px;
+}
+
+#side1 input.valid, #side2 input.valid, .emailInfo input.valid{
+    border-color: rgb(54, 204, 54);
+}
+
+#side1 input.invalid, #side2 input.invalid, .emailInfo input.invalid{
+    border-color: rgb(255, 81, 0);
+}
+
+.perInfo select{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.perInfo option{
+    padding: 50px;
+}
+
+#dlvry{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: black;
+    color: rgba(218, 212, 212, 0.753);
+    font-weight: bold;
+}
+
+#dlvry a{
+    text-decoration: none;
+    color: rgba(218, 212, 212, 0.753);
+}
+
+#dlvry:hover{
+    cursor: pointer;
+    font-size: 12px;
+    color: rgba(255, 253, 253, 0.719);
+}
+
+#can{
+    width: 152px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: black;
+    color: rgba(218, 212, 212, 0.753);
+    font-weight: bold;
+}
+#can a{
+    text-decoration: none;
+    color: rgba(218, 212, 212, 0.753);
+}
+
+#can:hover{
+    cursor: pointer;
+    font-size: 12px;
+    color: rgba(255, 253, 253, 0.719);
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------PAYMENT-------------------------------------------------------------- */
+
+#carry h5{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.payContainer{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    font-size: 15px;
+}
+
+#method1, #method2{
+    display: block;
+    background-color: #c0a0a9;
+    width: 46%;
+    /* margin: auto; */
+    padding: 5px;
+}
+
+#content{
+    display: none;
+}
+
+#sidepay1, #sidepay2{
+    display: inline-block;
+    margin-right: 50px;
+}
+#sidepay1 input{
+    width: 81%;
+    margin: auto;
+    margin-right: 140px;
+    margin-top: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-color: #ccc;
+    outline: none !important; 
+}
+#sidepay2 input{
+    width: 86%;
+    margin: auto;
+    margin-right: 25px;
+    margin-top: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-color: #ccc;
+    outline: none !important; 
+}
+
+#card input{
+    width: 46%;
+    margin: auto;
+    margin-right: 150px;
+    margin-top: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-color: #ccc;
+    outline: none !important; 
+}
+
+#month, #year{
+    padding: 30px;
+    margin: 10px;
+}
+
+#sidepay1 input.valid, #sidepay2 input.valid, #card input.valid{
+    border-color: rgb(54, 204, 54);
+}
+
+#sidepay1 input.invalid, #sidepay2 input.invalid, #card input.invalid{
+    border-color: rgb(255, 81, 0);
+}
+
+#pymnt{
+    width: 152px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: black;
+    color: rgba(218, 212, 212, 0.753);
+    font-weight: bold;
+}
+
+#pymnt a{
+    text-decoration: none;
+    color: rgba(218, 212, 212, 0.753);
+}
+
+#pymnt:hover{
+    cursor: pointer;
+    font-size: 12px;
+    color: rgba(255, 253, 253, 0.719);
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------- */
+
+footer{
+    margin: auto;
+}
+
+.foot-contain #fbook, .foot-contain #insta, .foot-contain #twit, .foot-contain #utube{
+    display: inline;
+    padding: 20px;
+    filter: grayscale(100%);
+}
+
+.foot-contain #fbook:hover{
+    filter: grayscale(0%);
+}
+
+.foot-contain #insta:hover{
+    filter: grayscale(0%);
+}
+
+.foot-contain #twit:hover{
+    filter: grayscale(0%);
+}
+
+.foot-contain #utube:hover{
+    filter: grayscale(0%);
+}
+
+.foot-contain{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+
+footer #created{
+    display: block;
+    padding: 0px;
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+    color: #b35d75;
+}
+
+/*to make website more rsponsive*/
+@media(max-width:768px){
+    .container, #top-nav, header,
+    #icon, .cus-serv, .cus-log  a, ul,
+    #logo, #nav-bar, #login,
+    .foot-contain, #created,
+    #fbook, #twit, #utube, #insta,
+    .service, .perContainer, .perInfo, .payContainer,
+    #dlvry, #chat, #email, #smedia{
+        float: none;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        line-height: 2.00em;
+    }
+
+    #logo{
+        margin-top: 30px;
+    }
+
+    .cus-serv a, .cus-log a{
+        max-width: 90%;
+        margin: auto;
+        text-align: left;
+    }
+    .cus-log a{
+        margin-left: 190px;
+    }
+
+
+    header #nav-bar a{
+        margin-right: 35px;
+    }
+
+    #login{
+        margin-top: 40px;
+    }
+
+    .contain-login label{
+        width: 90%;
+        margin: auto;
+    }
+
+    .service{
+        margin-top: 40px;
+        width: 90%;
+        margin: auto;
+    }
+
+    .service #chat, .service #email, .service #smedia{
+        width: 80%;
+        margin: auto;    
+        margin-right: 70px;
+    }
+
+    .perInfo{
+      margin-left: 20px;
+      margin-bottom: 40px;
+    }
+
+    #dlvry{
+        width: 40%;
+        margin: auto;
+        margin-right: 30px;
+    } 
+
+    .perContainer{
+        margin-top: 30px;
+    }
+
+    .emailInfo input[type='text']{
+        width: 60%;
+        margin: 0px;
+        margin-top: 10px;
+    }
+
+    .payContainer #method1, .payContainer #method2{
+        width: 40%;
+        margin: auto;
+        display: inline-block;
+        margin-bottom: 40px;
+    }
+
+    #sidepay1{
+        width: 55%;
+        margin-left: 20px;
+    }
+
+    #sidepay2{
+        width: 58%;
+        margin-left: 30px;
+    }
+
+    #sidepay1 label, #sidepay2 label{
+        text-align: center;
+    }
+
+    #card label{
+        text-align: center;
+    }
+
+    #card input[type='text'], #card input[type='password']{
+        width: 54%;
+        margin-left: 97px;
+    }
+
+    #content{
+        width: 100%;
+        margin: auto;
+    }
+
+    #can{
+        float: left;
+        margin-left: 160px;
+    }
+    
+
+}
+/*768px is tablest size or less*/
+
+
+

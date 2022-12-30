@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Checkout</title>
+        <link rel="icon" type="image/ico" href="../IMAGES/Icon/dd.png">
+        <link rel="stylesheet" type="text/css" href="../CSS/login.css">
+        <script src="../JS/jquery-3.5.0.js"></script>
+        <script src="../JS/checkout.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                <nav id="top-nav">
+                    <ul id="icon">
+                        <div class="cus-serv">
+                            <li><a href="./cutomerService.html">Customer Service</a></li>
+                        </div>
+                        <div class="cus-log">
+                            <li><a href="./frontpage.html">Log out</a></li>
+                        </div>
+                    </ul>    
+                </nav>
+
+                <div id="logo">
+                    <h1>RAJAN VANIKAR</h1>
+                </div>
+              
+                <nav id="nav-bar">
+                    <ul>
+                        <li><a href="catalog.html">Home</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="carryPurchase">
+            <div class="purchasePriceDetail">
+                Total(Excl. taxes): <span id="userPurchaseTotal"></span>
+                <div>GST: 5%</div>
+                <div>QST: 10%</div>
+                <span class="grandTotal">Total(Incl. taxes): </span>
+                <span class="inclPrice"></span>
+            </div>
+        </div>
+
+        <form class="perContainer" action="./payment.html" name="myForm" action="./payment.html" onsubmit="return required()">
+
+            <h2>MY INFORMATION</h2>
+            
+            <div class="emailInfo">
+                <label for="email">Email*</label><br>
+                <input type="text" placeholder="Please enter an email address" name="email">
+            </div>
+
+            <h3>SHIPPING ADDRESS</h3>
+
+            <div class="perInfo"> 
+
+                <div id="title">
+                    <label for="title">Title</label><br>
+                    <select name="title" size="1">
+                        <option value="sel" id="sal">Please Select</option>                
+                        <option value="mr" id="sal">Mr.</option>
+                        <option value="ms" id="sal">Miss</option>
+                        <option value="mrs" id="sal">Mrs.</option>
+                    </select>
+
+                    <br>
+                <div id="side1">
+
+                    <label for="fName" id="fname">First Name*</label><br>
+                    <input type="text" placeholder="Please enter your first name" name="fName" id="frname"><br>
+
+                    <label for="add" id="add1">Address Line 1*</label><br>
+                    <input type="text" placeholder="Apartment number/Suite, Street Number, Street Name" name="add"><br>
+
+                    <label for="city">City*</label><br>
+                    <input type="text" placeholder="Enter your city" name="city"><br>
+
+                    <label for="code">Zip code*</label><br>
+                    <input type="text" placeholder="Enter your postal code" name="code">
+
+                </div>
+                
+
+                <div id="side2">
+
+                    <label for="lName" id="lname">Last Name*</label><br>
+                    <input type="text" placeholder="Please enter your last name" name="lName" id="lsname"><br>
+              
+                    <label for="add" id="add2">Address Line 2</label><br>
+                    <input type="text" placeholder="Building, Unit, Floor, Door Code" name="add2"><br>                
+
+                    <label for="prov">Province*</label><br>
+                    <input type="text" placeholder="Enter your province" name="prov"><br>
+    
+                    <label for="phnum">Phone Number (optional)</label><br>
+                    <input type="text" placeholder="E.g. 514 111 1111" name="phnum">
+                </div>
+              
+                <br>
+                <button type="submit" id="dlvry">PROCEED TO PAYMENT</button>
+                <br>
+                <button type="reset" id="can"><a href="../HTML/catalog.html">Cancel</a></button>
+
+            </div>            
+        </form>             
+
+        <footer>
+            <section  class="foot-contain">
+            <div id="fbook">
+                <a href="https://www.facebook.com/" target="_blank"><img src="../IMAGES/HOME/facebook_color.png"></a>
+            </div>
+            <div id="twit">
+                <a href="https://twitter.com/explore" target="_blank"><img src="../IMAGES/HOME/twitter_color.png"></a>
+            </div>
+            <div id="utube">
+                <a href="https://www.youtube.com" target="_blank"><img src="../IMAGES/HOME/youtube_color.png"></a>
+            </div>
+            <div id="insta">
+                <a href="https://www.instagram.com/" target="_blank"><img src="../IMAGES/HOME/instagram_color.png"></a>
+            </div>
+        </section>
+            
+            <div id="created">
+                <p>Created by RAJAN VANIKAR</p>
+            </div>
+
+        </footer>
+
+    </body>
+
+</html>

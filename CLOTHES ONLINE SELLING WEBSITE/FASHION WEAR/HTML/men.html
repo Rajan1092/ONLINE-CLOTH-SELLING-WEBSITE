@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Men</title>
+        <link rel="stylesheet" type="text/css" href="../CSS/catalog.css">
+        <link rel="icon" type="image/ico" href="../IMAGES/Icon/dd.png">
+        <script src="../JS/jquery-3.5.0.js" async></script>
+        <script src="../JS/wo-men.js" async></script>
+
+    </head>
+
+    <body>
+
+        <header>
+            <div class="container">
+                <nav id="top-nav">
+                    <ul>
+                        <div id="cus-serv">
+                            <li><a href="./cutomerService.html">Customer Service</a></li>
+                        </div>
+                        <div id="cus-log">
+                            <li><a href="./frontpage.html">Log out</a></li>
+                        </div>
+                    </ul>   
+                </nav>
+
+                <div id="logo">
+                    <h1>RAJAN VANIKAR</h1>
+                </div>
+
+                <nav id="nav-bar">
+                    <ul>
+                        <li><a href="./catalog.html">Home</a></li>
+                        <li><a href="#">Men</a></li>
+                        <li><a href="./women.html">Women</a></li>
+                    </ul>
+                </nav>
+
+
+           
+
+            <section id="collection">
+                
+                <h1 id="topOfPage">SPRING COLLECTION</h1>                
+                <div class="search">
+                    <input type="image" src="../IMAGES/Icon/search16px.png" alt="submit"> 
+                    <input type="text" id="srchProducts" placeholder="Search Products">
+                </div>
+              
+<!-- --------------------------------------------------------------------------------------------------------------------- -->
+                <br>
+                    <!-- The overlay -->
+                <div id="myItem" class="overlay">
+
+                    <!-- Button to close the overlay navigation -->
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeCart()">&times;</a>
+                
+                    <!-- Overlay content -->
+                    <div class="overlay-content">
+                        <div class="cart-head">
+                            <h2>SHOPPING CART</h2>
+                            <div id="item-cart">
+                                <span class="item-Name">ITEMS</span> 
+                                <span class="item-Price">PRICE</span>
+                                <span class="item-Quantity">QUANTITY</span>
+                            </div>
+                        </div>
+                        <ul class="cartAllItems">
+                            <!-- <li class="item-cartRow">
+                                <div class="itemCart-Image">
+                                    <img src="../IMAGES/catalog/men/blckT.jpeg" width="100" height="100">
+                                </div>
+                                <div id="item-heading"> -->
+                                <!-- <h4 class="itemCart-Name">Black Punk Oversized T-shirt</h4>
+
+                                <h5 class="itemCart-Price">$59.99</h5>
+                                <div class="itemCart-Quantity">
+                                    <input class="cart-quantity-input" type="number" value="1">
+                                    <button class="btn-rem" type="button">Remove</button>
+                                </div> -->
+                                <!-- </div> -->
+                            <!-- </li> -->
+                        
+                            <!-- <li class="item-cartRow">
+                                <div class="itemCart-Image">
+                                    <img src="../IMAGES/catalog/men/blckT.jpeg" width="100" height="100">
+                                </div>
+                                <div id="item-heading"> -->
+                                <!-- <h4 class="itemCart-Name">Black Punk Oversized T-shirt</h4>
+
+                                <h5 class="itemCart-Price">$9.99</h5>
+                                <div class="itemCart-Quantity">
+                                    <input class="cart-quantity-input" type="number" value="1">
+                                    <button class="btn-rem" type="button">Remove</button>
+                                </div>
+                                </div>
+                            </li>  -->
+                        </ul>
+                        <br>
+                        <div class="cart-total">
+                                <span class="item-Total">TOTAL</span> 
+                                <span class="item-PriceTotal">$0</span>
+                        </div>
+                        
+
+                            <button class="btn-purchase" type="button">PROCEED TO PURCHASE</button>
+                    
+                 
+                    </div>
+                
+                </div>
+                
+                <!-- Use any element to open/show the overlay navigation menu -->
+                <span onclick="openCart()" id="cart">Shopping Cart</span>      
+                <br>   
+
+  <!-- --------------------------------------------------------------------------------------------------------------------- -->
+
+                <ul class="product-listing">
+
+                                <!-- T-shirts -->
+                    <li class="product-item">
+                        <article class="items">
+                            <div id="img-container">
+                                <img  src="../IMAGES/catalog/men/blckT.jpeg" class="iImage" title="Black Tshirt">
+                            </div>
+                            <div id="item-heading">
+                                <h4 class="iName">Black Punk Oversized T-shirt</h4>
+                                <h5 class="iPrice">$59.99</h5>
+                                <button class="btn-add" type="button">Add to Cart</button>
+                            </div>
+                        </article>
+                    </li>
+                  
+                    <li class="product-item">
+                        <article class="items">
+                            <div id="img-container">
+                                <img src="../IMAGES/catalog/men/greenT.jpeg" class="iImage" title="green Tshirt">
+                            </div>
+                            <div id="item-heading">
+                                <h4 class="iName">Basic T-shirt</h4>
+                                <h5 class="iPrice">$29.99</h5>
+                                <button class="btn-add" type="button">Add to Cart</button>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li class="product-item">
+                        <article class="items">
+                            <div id="img-container">
+                                <img src="../IMAGES/catalog/men/blueT.jpeg" class="iImage" title="blue Tshirt">
+                            </div>
+                            <div id="item-heading">
+                                <h4 class="iName">Printed T-shirt</h4>
+                                <h5 class="iPrice">$35.99</h5>
+                                <button class="btn-add" type="button">Add to Cart</button>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li class="product-item">
+                        <article class="items">
+                            <div id="img-container">
+                                <img src="../IMAGES/catalog/men/peachT.jpeg" class="iImage" title="peach Tshirt">
+                            </div>
+                            <div id="item-heading">
+                                <h4 class="iName">Spring T-shirt</h4>
+                                <h5 class="iPrice">$37.99</h5>
+                                <button class="btn-add" type="button">Add to Cart</button>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li class="product-item">
+                        <article class="items">
+                            <div id="img-container">
+                                <img src="../IMAGES/catalog/men/yellowT.jpeg" class="iImage" title="yellow Tshirt">
+                            </div>
+                            <div id="item-heading">
+                                <h4 class="iName">Oversized T-shirt</h4>
+                                <h5 class="iPrice">$59.99</h5>
+                                <button class="btn-add" type="button">Add to Cart</button>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li class="product-item">
+                        <article class="items">
+                            <div id="img-container">
+                                <img src="../IMAGES/catalog/men/redT.jpeg" class="iImage" title="red Tshirt">
+                            </div>
+                            <div id="item-heading">
+                                <h4 class="iName">Graphic T-shirt</h4>
+                                <h5 class="iPrice">$44.99</h5>
+                                <button class="btn-add" type="button">Add to Cart</button>
+                            </div>
+                        </article>
+                    </li>
+
+                                    <!-- Shirts -->
+                    <div id="hidden">
+                        <li class="product-item">
+                            <article class="items">
+                                <div id="img-container">
+                                    <img src="../IMAGES/catalog/men/dblueS.jpeg" class="iImage" title="Dark-blue shirt">
+                                </div>
+                                <div id="item-heading">
+                                    <h4 class="iName">Relaxed Fit Shirt</h4>
+                                    <h5 class="iPrice">$24.99</h5>
+                                    <button class="btn-add" type="button">Add to Cart</button>
+                                </div>
+                            </article>
+                        </li>
+                    
+                    
+                        <li class="product-item">
+                            <article class="items">
+                                <div id="img-container">
+                                    <img src="../IMAGES/catalog/men/greyS.jpeg" class="iImage" title="Gray shirt">
+                                </div>
+                                <div id="item-heading">
+                                    <h4 class="iName">Slim Fit Shirt</h4>
+                                    <h5 class="iPrice">$39.99</h5>
+                                    <button class="btn-add" type="button">Add to Cart</button>
+                                </div>
+                            </article>
+                        </li>
+
+                        <li class="product-item">
+                            <article class="items">
+                                <div id="img-container">
+                                    <img src="../IMAGES/catalog/men/camelS.jpeg" class="iImage" title="Camel shirt">
+                                </div>
+                                <div id="item-heading">
+                                    <h4 class="iName">Denim Shirt</h4>
+                                    <h5 class="iPrice">$44.99</h5>
+                                    <button class="btn-add" type="button">Add to Cart</button>
+                                </div>
+                            </article>
+                        </li>
+
+                        <li class="product-item">
+                            <article class="items">
+                                <div id="img-container">
+                                    <img src="../IMAGES/catalog/men/checkS.jpeg" class="iImage" title="Check shirt">
+                                </div>
+                                <div id="item-heading">
+                                    <h4 class="iName">Spring Linen Shirt</h4>
+                                    <h5 class="iPrice">$34.99</h5>
+                                    <button class="btn-add" type="button">Add to Cart</button>
+                                </div>
+                            </article>
+                        </li>
+                    
+                        <li class="product-item">
+                            <article class="items">
+                                <div id="img-container">
+                                    <img src="../IMAGES/catalog/men/whiteS.jpeg" class="iImage" title="White shirt">
+                                </div>
+                                <div id="item-heading">
+                                    <h4 class="iName">Pattern Resort Shirt</h4>
+                                    <h5 class="iPrice">$39.99</h5>
+                                    <button class="btn-add" type="button">Add to Cart</button>
+                                </div>
+                            </article>
+                        </li>
+
+                        <li class="product-item">
+                            <article class="items">
+                                <div id="img-container">
+                                    <img src="../IMAGES/catalog/men/blueS.jpeg" class="iImage" title="blue Tshirt">
+                                </div>
+                                <div id="item-heading">
+                                    <h4 class="iName">Slim Fit Shirt</h4>
+                                    <h5 class="iPrice">$64.99</h5>
+                                    <button class="btn-add" type="button">Add to Cart</button>
+                                </div>
+                            </article>
+                        </li>
+
+                        <span id="loadLess" type="submit" onclick="hideContent()">Show Less Products</span> 
+
+                    </div>
+                </ul>
+                <span id="loadMore" type="submit" onclick="showContent()">Show More Products</span>
+
+                <p id="end"> <a href="#topOfPage" title="go to the top"><img src="../IMAGES/catalog/main/up-arrow.png"> Back to top</a></p>
+
+            
+            </section>
+
+        </div>
+
+
+        <footer>
+            <section  class="foot-contain">
+            <div id="fbook">
+                <a href="https://www.facebook.com/" target="_blank"><img src="../IMAGES/HOME/facebook_color.png"></a>
+            </div>
+            <div id="twit">
+                <a href="https://twitter.com/explore" target="_blank"><img src="../IMAGES/HOME/twitter_color.png"></a>
+            </div>
+            <div id="utube">
+                <a href="https://www.youtube.com" target="_blank"><img src="../IMAGES/HOME/youtube_color.png"></a>
+            </div>
+            <div id="insta">
+                <a href="https://www.instagram.com/" target="_blank"><img src="../IMAGES/HOME/instagram_color.png"></a>
+            </div>
+        </section>
+            
+            <div id="created">
+                <p>Created by RAJAN VANIKAR</p>
+            </div>
+
+        </footer>
+
+    </body>
+
+</html>

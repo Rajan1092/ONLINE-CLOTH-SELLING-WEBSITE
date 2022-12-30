@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>LogIn</title>
+        <link rel="icon" type="image/ico" href="../IMAGES/Icon/dd.png">
+        <link rel="stylesheet" type="text/css" href="../CSS/login.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+
+                <div id="logo">
+                    <h1>RAJAN VANIKAR</h1>
+                </div>
+              
+                <nav id="nav-bar">
+                    <ul>
+                        <li><a href="frontpage.html">Home</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section id="login">
+            <h2>Log in</h2>
+                <div class="contain-login">
+                    <form name="myForm" action="./catalog.html" onsubmit="return validate()">
+                        <label for="username">Username*</label>
+                        <input type="text" placeholder="Username" name="usrid" id="usename">
+                        <label for="password">Password*</label>
+                        <input type="password" placeholder="Password" name="psswrd" id="password">
+                        <button type="login" id="submit" >Log in</button>
+                    </form>
+                </div>
+        </section>
+
+        <footer>
+            <section  class="foot-contain">
+            <div id="fbook">
+                <a href="https://www.facebook.com/" target="_blank"><img src="../IMAGES/HOME/facebook_color.png"></a>
+            </div>
+            <div id="twit">
+                <a href="https://twitter.com/explore" target="_blank"><img src="../IMAGES/HOME/twitter_color.png"></a>
+            </div>
+            <div id="utube">
+                <a href="https://www.youtube.com" target="_blank"><img src="../IMAGES/HOME/youtube_color.png"></a>
+            </div>
+            <div id="insta">
+                <a href="https://www.instagram.com/" target="_blank"><img src="../IMAGES/HOME/instagram_color.png"></a>
+            </div>
+        </section>
+            
+            <div id="created">
+                <p>Created by RAJAN VANIKAR</p>
+            </div>
+
+        </footer>
+
+    </body>
+
+    <script src="../JS/login.js"></script>
+
+</html>

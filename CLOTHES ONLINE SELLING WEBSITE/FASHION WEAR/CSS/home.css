@@ -1,0 +1,211 @@
+body{
+    background-color: rgb(231, 230, 230);
+    font-family: Calibri;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    margin: auto;
+}
+
+#nav-bar{
+    width: 90%;
+    margin: auto;
+    border-bottom: #645c84 solid 3px;
+}
+
+.container{
+    /* width: 100%; */
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.container #cus-serv, .container #cus-log{
+    display: inline;
+    padding: 0px;
+    font-size: 20px;
+}
+
+.container #cus-serv a{
+    text-decoration: none;
+    color: #273544;
+    font-family: cursive;
+    float: left;
+}
+
+.container #cus-log a{
+    text-decoration: none;
+    color: #273544;
+    font-family: cursive;
+    float: right;
+    margin-right: 40px;
+}
+.container #top-nav a:hover{
+    font-weight: bold;
+    color:  #c06c84;
+}
+
+#logo{
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    color: #c06c84;
+    width: 100%;
+    margin: auto;
+}
+
+#logo h1{
+    padding-top: 0px;
+}
+
+header nav{
+    text-align: center;
+}
+
+header li{
+    display: inline;
+    padding: 0 30px 30px 0;
+}
+
+header #nav-bar a{
+    text-decoration: none;
+    color: #273544;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.container #nav-bar a:hover{
+    font-weight: bold;
+    color: #c06c84;
+}
+
+
+#pictures{
+    width: 80%;
+    margin: auto;
+    height: auto;
+    display: block;
+    padding-left: 50px;
+}
+.contain-pic1 img, .contain-pic2  img, .contain-pic3 img{
+  
+    max-width: 700px;
+    max-height: 700px;
+    filter: grayscale(100%);
+    margin-top: 20px;
+    position: relative;
+}
+
+#img1-text h2, #img2-text h2{
+    background-color: black;
+    color: white;
+    padding: 3px;
+}
+
+#img1-text h2 a, #img2-text h2 a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.contain-pic1{
+    display: inline;
+}
+
+.contain-pic1 img, .contain-pic3 img{
+    padding: 10px;
+}
+
+.contain-pic1 #img1-text{
+    position: absolute;
+    color: black;
+    bottom: 10px;
+    right: 800px;
+    padding: 10px;
+}
+.contain-pic1 #img2-text{
+    position: absolute;
+    color: black;
+    bottom: 250px;
+    right: 240px;
+    padding: 10px;
+}
+
+.contain-pic1 img:hover{
+    filter: grayscale(0%);
+}
+
+#pic2-text h2{
+    background-color: black;
+    color: white;
+    padding: 3px;
+}
+
+#pic2-text h2 a{
+    text-decoration: none;
+    color: white;
+
+}
+.contain-pic2 #pic2-text{
+    position: absolute;
+    color: black;
+    bottom: 10px;
+    right: 450px;
+    padding: 10px;
+}
+.contain-pic2 img:hover{
+    filter: grayscale(0%);
+}
+
+.contain-pic3 img:hover{
+    filter: grayscale(0%);
+}
+
+
+
+footer{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    border-top: #645c84 solid 3px;
+}
+
+.foot-contain #fbook, .foot-contain #insta, .foot-contain #twit, .foot-contain #utube{
+    display: inline;
+    padding: 20px;
+    filter: grayscale(100%);
+}
+
+.foot-contain #fbook:hover{
+    filter: grayscale(0%);
+}
+
+.foot-contain #insta:hover{
+    filter: grayscale(0%);
+}
+
+.foot-contain #twit:hover{
+    filter: grayscale(0%);
+}
+
+.foot-contain #utube:hover{
+    filter: grayscale(0%);
+}
+
+.foot-contain{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+footer #created p{
+    display: block;
+    padding: 0px;
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+    color: #273544;
+}

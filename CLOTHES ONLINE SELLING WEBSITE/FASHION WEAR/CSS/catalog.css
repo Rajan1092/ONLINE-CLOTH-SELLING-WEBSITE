@@ -1,0 +1,823 @@
+body{
+    background: url("../IMAGES/catalog/main/background-blank-empty-light-62693.jpg");
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    margin: auto;
+}
+
+#nav-bar{
+    width: 90%;
+    margin: auto;
+    border-bottom: #7f7999 solid 3px;
+    margin-bottom: 20px;
+}
+
+.container{
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.container #cus-serv, .container #cus-log{
+    display: inline;
+    padding: 0px;
+    font-size: 20px;
+}
+
+.container #cus-serv a{
+    text-decoration: none;
+    color: #273544;
+    font-family: cursive;
+    float: left;
+}
+
+.container #cus-log a{
+    text-decoration: none;
+    color: #273544;
+    font-family: cursive;
+    float: right;
+    margin-right: 40px;
+}
+.container #top-nav a:hover{
+    font-weight: bold;
+    color:  #c06c84;
+}
+
+#logo{
+    text-align: center;
+    font-family: cursive;
+    font-size: 25px;
+    color: #b35d75;
+    width: 100%;
+    margin: auto;
+}
+
+#logo h1{
+    padding-top: 0px;
+}
+
+header nav{
+    text-align: center;
+}
+
+header li{
+    display: inline;
+    padding: 0 30px 30px 0;
+}
+
+header #nav-bar a{
+    text-decoration: none;
+    color: #273544;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.container #nav-bar a:hover{
+    font-weight: bold;
+    color: #c06c84;
+}
+
+/* ------------------------------------------------CATALOG PAGE--------------------------------------------------------------------------- */
+
+#catalog{
+    width: 80%;
+    margin: auto;
+}
+
+#tag1, #tag2, #tag3{
+    /* background-color: #c2b0c9; */
+    background-color:  #b5a7b9;
+    color: #273544;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.catgirls{
+    position: relative;
+}
+
+.catgirls #btn-gl{
+    position: absolute;
+    left: 45%;
+    bottom: 5%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 18px;
+    padding: 5px 10px 5px 10px;
+    opacity: 0.7;
+}
+
+.catgirls a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+}
+
+.catgirls #btn-gl:hover{
+    opacity: 1;
+}
+
+.catgirls a:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.catboys{
+    position: relative;
+}
+
+.catboys #btn-by{
+    position: absolute;
+    left: 30%;
+    bottom: 10%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 18px;
+    padding: 5px 10px 5px 10px;
+    opacity: 0.7;
+}
+
+.catboys #btn-by2{
+    position: absolute;
+    right: 30%;
+    bottom: 10%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 18px;
+    padding: 5px 10px 5px 10px;
+    opacity: 0.7;
+}
+
+.catboys #btn-by:hover, .catboys #btn-by2:hover{
+    opacity: 1;
+}
+
+.catboys a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+}
+
+.catboys a:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.catgirls img{
+    max-width: 100%;
+    height: auto;
+}
+
+.catboys img{
+    max-width: 100%;
+    height: auto;
+}
+
+.catboys #men1{
+    max-width: 514px;
+    max-height: auto;
+    margin-right: 130px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.catboys #men2{
+    max-width: 600px;
+    max-height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
+#collection{
+    width: 95%;
+    margin: auto;
+    /* padding-left: 30px; */
+}
+
+
+#collection h1{
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    font-family: cursive;
+    letter-spacing: 0.2em;
+    margin-left: 20px;
+    color: #273544 ;
+}
+
+h1, .search{
+    display: inline;
+}
+
+
+/* ------------------------------------------------search --------------------------------------------------------------------- */
+
+#collection .search{
+    float: right;
+    margin-right: 5px;
+}
+
+#srchProducts{
+    padding: 4px;
+    border: 0px;
+    outline: 0px;
+    margin-right: 40px;
+    border-bottom: 1px black solid;
+    padding-right: 5px;
+    background-color:rgb(231, 230, 230);
+}
+
+#btnSlide{
+    float: right;
+    margin-right: 45px;
+    padding: 5px 10px 5px 5px;
+    opacity: 0.7;
+    margin-bottom: 50px;
+}
+#box{
+    float: right;
+	background-color:#333;
+	color:#fff;
+	width:200px;
+	height:150px;
+	padding:40px;
+	text-align:center;
+    margin-top:10px;
+    margin-bottom: 50px;
+}
+
+#btnSlide:hover{
+    opacity: 1;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.9); 
+    overflow-x: hidden; 
+    transition: 0.5s; 
+}
+  
+.overlay-content {
+    position: relative;
+    top: 25%; 
+    width: 100%; 
+    text-align: center;
+    margin-top: 30px; 
+}
+  
+.overlay  a, #item-cart span{
+    padding: 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: inline; 
+    transition: 0.3s;
+}
+.cart-head h2{
+    font-size: 35px;
+    color: #818181;
+    padding: 20px;
+}
+  
+#item-cart{
+    border-bottom: 1px solid #818181;
+    max-width: 80%;
+    margin: auto;
+}
+
+#item-cart span{
+    padding: 130px;
+    margin: auto;
+}
+
+.cartAllItems li, .cart-total, .btn-purchase{
+    display: flex;
+}
+
+.itemCart-Image, .itemCart-Name, .itemCart-Price, .itemCart-Quantity{
+    display: block;
+}
+
+.itemCart-Image img{
+    width: 130px;
+    height: 150px;
+    float: left;
+    margin-left: 180px;
+    border-radius: 20px;
+}
+
+.itemCart-Name{
+    width: 100px;
+    padding-right: 45px;
+}
+.itemCart-Name, .itemCart-Quantity{
+    color: whitesmoke;
+    float: left;
+    margin-left: 10px;
+    margin-top: 60px;
+}
+
+.itemCart-Price{
+    color: whitesmoke;
+    float: left;
+    margin-left: 10px;
+    margin-top: 60px;
+    /* float: left; */
+    padding-left: 160px;
+    font-size: 16px;
+}
+
+.itemCart-Quantity{
+    float: left;
+    margin-left: 10px;
+}
+
+.itemCart-Quantity input{
+    width: 40px;
+    height: 25px;
+    margin-left: 250px;
+    font-size: 15px;
+}
+
+.itemCart-Quantity button{
+    padding: 8px 15px 8px 15px;
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+.itemCart-Quantity button:hover{
+    cursor: pointer;
+    font-weight: bold;
+    background-color: rgb(104, 10, 10);
+    color: whitesmoke;
+}
+
+.cart-total, .btn-purchase{
+    display: block;
+}
+
+.cart-total{
+    margin: auto;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-purchase{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 160px;
+    padding: 5px;
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+.btn-purchase:hover{
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #d197a8;
+}   
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+  
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+#cart{
+    float: right;
+    margin-right: 40px;
+    border: 1.2px solid black;
+    padding: 5px 10px 5px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: #b6959e;
+    opacity: 0.8;
+    color: #273544;
+    border-radius: 2px;
+}
+
+#cart:hover{
+    font-weight: bold;
+    color: #09111a;
+}
+ 
+/* --------------------------------------------------PRODUCTS-------------------------------------------------------------------- */
+
+.product-listing{
+    width: 85%;
+    margin: auto;
+    line-height: 1.5em;
+    word-spacing: normal;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+
+#loadMore, #loadLess{
+	background-color:#b6959e;
+    color: #273544;
+    text-transform:uppercase;
+	width:300px;
+	padding:10px;
+    font-size:20px;
+    padding-top: 12px;
+	margin:10px auto;
+	display: inline-block;
+	cursor:pointer;
+    text-align:center;
+    border: #273544 1px solid;
+    margin-left: 39%;
+}
+
+#loadMore:hover, #loadLess:hover{
+    background-color: #b6959e ;
+    color: #09111a;
+    font-weight: bold;
+} 
+
+#loadLess{
+    margin-left: 35%;
+}
+
+.product-listing li{
+    list-style: none;
+}
+
+.product-item .items{
+    display: inline-block;
+    padding-bottom: 30px;
+}
+.product-listing img{
+    margin: auto;
+    max-width: 450px;
+    max-height: 450px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 5px;
+    padding-bottom: 0px;
+    margin-top: 20px;
+    margin-left: 8px;
+}
+
+.product-item h4, .product-item h5{
+    padding-left: 10px;
+}
+
+.product-item #img-container{
+    filter: grayscale(100%);
+}
+
+#img-container:hover{
+    transform: scale(1.2);
+    filter: grayscale(0%);
+}
+
+.product-item h4, h5{
+    margin: 0px;
+    padding-top: 5px;
+    letter-spacing: 0.1em;
+}
+
+.product-listing #open{
+	max-height:3000px;
+}
+
+#hidden{
+    display: none;
+}
+
+#end a{
+    text-decoration: none;
+    margin-left: 40px;
+    color: #273544;
+    font-size: 15px;
+}
+
+#end a img{
+    opacity: 0.7;
+}
+ 
+#end a:hover{
+    font-weight: bold;
+}
+
+#end a img:hover{
+    opacity: 1;
+}
+
+
+/* -----------------------------------------------------ADD BUTTON------------------------------------------------------------ */
+.btn-add, h5{
+    display: inline;
+}
+
+.btn-add{
+    float: right;
+    padding: 5px 10px 5px 10px;
+    font-size: 12px;
+    background-color: white;
+    opacity: 0.7;
+}
+
+.btn-add:hover{
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 1;
+}
+/* -----------------------------------------------------FOOTER------------------------------------------------------------ */
+
+footer{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    border-top: #7f7999 solid 3px;
+    margin-bottom: 10px;
+}
+
+.foot-contain #fbook, .foot-contain #insta, .foot-contain #twit, .foot-contain #utube{
+    display: inline;
+    padding: 20px;
+    filter: grayscale(100%);
+}
+
+.foot-contain #fbook:hover{
+    filter: grayscale(0%);
+}
+
+.foot-contain #insta:hover{
+    filter: grayscale(0%);
+}
+
+.foot-contain #twit:hover{
+    filter: grayscale(0%);
+}
+
+.foot-contain #utube:hover{
+    filter: grayscale(0%);
+}
+
+.foot-contain{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+footer #created p{
+    display: block;
+    padding: 0px;
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+    color: #b35d75;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------- */
+
+/*to make website more rsponsive*/
+@media(max-width:768px){
+    .container, #top-nav,
+    #cus-serv, #cus-log,
+    #logo, #nav-bar,
+    #catalog, #collection, .overlay{
+        float: none;
+        text-align: center;
+        width: 100%;
+        line-height: 2.00em;
+    }
+
+    .overlay-content{
+        max-width: 100%;
+        margin: auto;
+    }
+    #item-cart span{
+        display: inline;
+        font-size: 20px;
+        padding: 60px;
+    }
+
+    .item-Name img, .item-cartRow h4{
+        display: inline-block;
+    }
+
+    .item-Name img{
+        width: 50px;
+        height: auto;
+    }
+
+    .item-cartRow h4{
+        font-size: 10px;
+        float: left;
+   }
+
+    .catgirls img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .catboys img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .catgirls #btn-gl{
+        left: 180px;
+    }
+
+    .catboys #men1, .catboys #men2{
+        display: inline;
+        max-width: 50%;
+        max-height: 50%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .catboys #btn-by{
+        bottom: 480px;
+        font-size: 10px;
+    }
+
+    .catboys #btn-by2{
+        font-size: 10px;
+    }
+
+    .name{
+        text-align: left;
+        display: block;
+        font-size: 15px;
+        width: auto;
+        margin: auto;
+        line-height: 1.2em;
+    }
+
+    #catalog #tag1, #catalog #tag2{
+        font-size: 20px;
+        padding: 8px;
+    }
+
+    .search{
+        width: 90%;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    #loadMore, #loadLess, #end{
+        margin: auto;
+    }    
+
+    #loadMore, #loadLess{
+        width: 40%;
+        font-size: 12px;
+        padding: 8px;
+        margin-bottom: 10px;
+    }
+
+    #end{
+        padding-top: 20px;
+        margin: auto;
+        font-size: 8px;
+    }
+    
+    #img-container img{
+        max-width: 70%;
+        height: auto;
+    }
+
+    #item-heading{
+        font-size: 10px;
+    }
+
+    .btn-add{
+        font-size: 10px;
+        margin: auto;
+        float: left;
+        margin-left: 145px;
+    }
+
+    .iName, .iPrice, .btn-add{
+        display: block;
+    }
+
+    .product-item #img-container{
+        filter: grayscale(0%);
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .product-item #img-container:hover{
+        transform: scale(1);
+    }
+
+    .cart-head h2{
+        font-size: 20px;
+    }
+
+    #item-cart span{
+        font-size: 12px;
+        display: inline;
+        padding: 40px;
+    }
+    
+    .cart-total{
+        font-size: 15px;
+    }
+
+    .btn-purchase{
+        font-size: 10px;
+    }
+
+    .cartAllItems{
+        display: inline-block;
+        width: 100%;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .itemCart-Image img{
+        width: 40px;
+        height: auto;
+        float: left;
+        margin-left: 40px;
+    }
+
+    .itemCart-Name, .itemCart-Price, .itemCart-Quantity, .btn-rem{
+        font-size: 8px;
+        padding: 0px;
+        margin: 10px;
+    }
+
+    .itemCart-Image img, .itemCart-Name, .itemCart-Price, .itemCart-Quantity, .btn-rem{
+        display: block;
+    }
+
+    .itemCart-Name{
+        font-size: 4px;
+        width: 10px;
+        margin: auto;
+        margin-left: 5px;
+        padding: 0px;
+        line-height: 1em;
+    }
+
+    .itemCart-Price{
+        padding-left: 20px;
+        margin-left: 70px;
+    }
+
+    .itemCart-Quantity button{
+        font-size: 8px;
+        padding: 4px;
+        margin: 0px;
+        margin-left: 10px;
+    }
+
+    .itemCart-Quantity{
+        width: 220px;
+        font-size: 8px;
+        padding: 0px;
+        margin-left: 10px;
+    }
+
+    .itemCart-Quantity input{
+        float: left;
+        margin-left: 70px;
+        width: 20px;
+        font-size: 8px;
+        margin-right: 5px;
+    }
+
+    #cart{
+        font-size: 12px;
+        padding: 0px 3px 0px 3px;
+    }
+    
+}
+/*768px is tablest size or less*/

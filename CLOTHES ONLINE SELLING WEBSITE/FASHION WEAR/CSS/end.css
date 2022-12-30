@@ -1,0 +1,97 @@
+body{
+    background: url("../IMAGES/catalog/main/background-blank-empty-light-62693.jpg");
+    font-family: sans-serif;
+}
+
+.content{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.content h1{
+    font-size: 60px;
+    text-align: center;
+    color: #273544;
+    padding-bottom: 20px;
+    border-bottom: #7f7999 1px solid;
+}
+
+.content h1 img{
+    width: 80px;
+    height: 80px;
+    margin: 0px;
+    padding-left: 20px;
+}
+
+.subTo, .subBy, .proj{
+    width: 40%;
+    margin: auto;
+}
+
+.proj{
+    color: #273544;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.proj span{
+    color: #4e6885;
+}
+
+
+.subTo #sub1, .subBy #sub2{
+    text-align: left;
+    font-size: 30px;
+    color: #273544;
+    margin: 0px;
+    margin-bottom: 8px;
+    margin-top: 15px;
+
+} 
+
+#pName, #sName{
+    font-size: 20px;
+    color: #4e6885;
+    margin: 0px;
+}
+
+.back a{
+    text-decoration: none;
+    color: #273544;
+}
+.back{
+    font-size: 25px;
+    text-align: center;
+    margin-left: 350px;
+    margin-top: 50px;
+    padding: 5px;
+}
+
+.back:hover{
+    cursor: pointer;
+}
+
+@media(max-width:768px){
+    .back{
+        margin-left: 120px ;
+    }
+
+    .content h1{
+        font-size: 50px;
+    }
+
+    .subBy, .subTo, .proj{
+        width: 100%;
+        margin: auto;
+    }
+    .subTo, .subBy{
+        font-size: 10px;
+        margin: auto;
+    }
+    .proj{
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+}

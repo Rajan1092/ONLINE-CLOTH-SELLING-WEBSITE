@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Women</title>
+        <link rel="icon" type="image/ico" href="../IMAGES/Icon/dd.png">
+        <link rel="stylesheet" type="text/css" href="../CSS/catalog.css">
+        <script src="../JS/jquery-3.5.0.js" async></script>
+        <script src="../JS/wo-men.js"></script>
+
+    </head>
+
+    <body>
+
+        <header>
+            <div class="container">
+                <nav id="top-nav">
+                    <ul>
+                        <div id="cus-serv">
+                            <li><a href="./cutomerService.html">Customer Service</a></li>
+                        </div>
+                        <div id="cus-log">
+                            <li><a href="./frontpage.html">Log out</a></li>
+                        </div>
+                    </ul>    
+                </nav>
+
+                <div id="logo">
+                    <h1>RAJAN VANIKAR</h1>
+                </div>
+
+                <nav id="nav-bar">
+                    <ul>
+                        <li><a href="./catalog.html">Home</a></li>
+                        <li><a href="./men.html">Men</a></li>
+                        <li><a href="#">Women</a></li>
+                    </ul>
+                </nav>
+           
+
+            <section id="collection">
+                
+                <h1   id="topOfPage">SPRING COLLECTION</h1>
+                <div class="search">
+                    <input type="image" src="../IMAGES/Icon/search16px.png" alt="submit"><input placeholder="Search Products" id="srchProducts" ></input>
+                </div>
+    
+<!-- --------------------------------------------------------------------------------------------------------------------- -->
+            <br>
+            <!-- The overlay -->
+            <div id="myItem" class="overlay">
+
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeCart()">&times;</a>
+
+            <!-- Overlay content -->
+            <div class="overlay-content">
+                <div class="cart-head">
+                    <h2>SHOPPING CART</h2>
+                    <div id="item-cart">
+                        <span class="item-Name">ITEMS</span> 
+                        <span class="item-Price">PRICE</span>
+                        <span class="item-Quantity">QUANTITY</span>
+                    </div>
+                </div>
+                <ul class="cartAllItems">
+
+                    <!-- <li class="item-cartRow">
+                        <div class="itemCart-Image">
+                            <img src="../IMAGES/catalog/women/redT.jpeg" width="100" height="100">
+                        </div>
+                        <div id="item-heading">
+                        <h4 class="itemCart-Name">Knot Crop Top</h4>
+
+                        <h5 class="itemCart-Price">$39.99</h5>
+                        <div class="itemCart-Quantity">
+                            <input class="cart-quantity-input" type="number" value="1">
+                            <button class="btn-rem" type="button">Remove</button>
+                        </div> 
+                        </div>
+                    </li>
+                
+                    <li class="item-cartRow">
+                        <div class="itemCart-Image">
+                            <img src="../IMAGES/catalog/women/blackD.jpeg" width="100" height="100">
+                        </div>
+                        <div id="item-heading"> 
+                        <h4 class="itemCart-Name">Frill Embroidered Short Dress</h4>
+
+                        <h5 class="itemCart-Price">$49.99</h5>
+                        <div class="itemCart-Quantity">
+                            <input class="cart-quantity-input" type="number" value="1">
+                            <button class="btn-rem" type="button">Remove</button>
+                        </div>
+                        </div>
+                    </li>  -->
+                </ul> 
+                <br>
+                <div class="cart-total">
+                        <span class="item-Total">TOTAL</span> 
+                        <span class="item-PriceTotal">$0</span>
+                </div>
+                
+
+                    <button class="btn-purchase" type="button">PROCEED TO PURCHASE</button>
+
+
+            </div>
+
+            </div>
+
+            <!-- Use any element to open/show the overlay navigation menu -->
+            <span onclick="openCart()" id="cart">Shopping Cart</span>      
+            <br>   
+
+<!-- --------------------------------------------------------------------------------------------------------------------- -->
+            
+            <ul class="product-listing">
+
+                                <!-- Tops -->
+                    <li class="product-item">
+                        <article class="items">
+                            <div id="img-container">
+                                <img src="../IMAGES/catalog/women/redT.jpeg" title="Red Top" class="iImage">
+                            </div>
+                            <div id="item-heading">
+                                <h4 class="iName">Knot Crop Top</h4>
+                                <h5 class="iPrice">$39.99</h5>
+                                <button class="btn-add" type="button">Add to Cart</button>
+                            </div>
+                        </article>
+                    </li>
+                  
+                    <li class="product-item">
+                        <article class="items">
+                            <div id="img-container">
+                                <img src="../IMAGES/catalog/women/beigeT.jpeg" title="Biege Top" class="iImage">
+                            </div>
+                            <div id="item-heading">
+                                <h4 class="iName">Fitted Blouse</h4>
+                                <h5 class="iPrice">$29.99</h5>
+                                <button class="btn-add"type="button">Add to Cart</button>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li class="product-item">
+                        <article class="items">
+                            <div id="img-container">
+                                <img src="../IMAGES/catalog/women/cropT.jpeg" title="Crop Top" class="iImage">
+                            </div>
+                            <div id="item-heading">
+                                <h4 class="iName">Mickey Crop Top</h4>
+                                <h5 class="iPrice">$29.99</h5>
+                                <button class="btn-add" type="button">Add to Cart</button>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li class="product-item">
+                        <article class="items">
+                            <div id="img-container">
+                                <img src="../IMAGES/catalog/women/floralT.jpeg" title="Floral Top" class="iImage">
+                            </div>
+                            <div id="item-heading">
+                                <h4 class="iName">Spring Collection Blouse</h4>
+                                <h5 class="iPrice">$44.99</h5>
+                                <button class="btn-add" type="button">Add to Cart</button>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li class="product-item">
+                        <article class="items">
+                            <div id="img-container">
+                                <img src="../IMAGES/catalog/women/mickeyT.jpeg" title="Mickey Tshirt" class="iImage">
+                            </div>
+                            <div id="item-heading">
+                                <h4 class="iName">Oversized Cartoon <T-shirt></T-shirt></h4>
+                                <h5 class="iPrice">$29.99</h5>
+                                <button class="btn-add" type="button">Add to Cart</button>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li class="product-item">
+                        <article class="items">
+                            <div id="img-container">
+                                <img src="../IMAGES/catalog/women/militaryT.jpeg" title="Camouflage Tshirt" class="iImage">
+                            </div>
+                            <div id="item-heading">
+                                <h4 class="iName">Camouflage T-shirt</h4>
+                                <h5 class="iPrice">$24.99</h5>
+                                <button class="btn-add" type="button">Add to Cart</button>
+                            </div>
+                        </article>
+                    </li>
+
+                                    <!-- Dresses -->
+
+                    <div id="hidden">
+
+                        <li class="product-item">
+                            <article class="items">
+                                <div id="img-container">
+                                    <img src="../IMAGES/catalog/women/redD.jpeg" title="Red Dress" class="iImage">
+                                </div>
+                                <div id="item-heading">
+                                    <h4 class="iName">Solid Bodycon Slip</h4>
+                                    <h5 class="iPrice">$44.99</h5>
+                                    <button class="btn-add" type="button">Add to Cart</button>
+                                </div>
+                            </article>
+                        </li>
+                    
+                    
+                        <li class="product-item">
+                            <article class="items">
+                                <div id="img-container">
+                                    <img src="../IMAGES/catalog/women/blackD.jpeg" title="Black Dress" class="iImage">
+                                </div>
+                                <div id="item-heading">
+                                    <h4 class="iName">Frill Embroidered Short Dress</h4>
+                                    <h5 class="iPrice">$49.99</h5>
+                                    <button class="btn-add" type="button">Add to Cart</button>
+                                </div>
+                            </article>
+                        </li>
+
+                        <li class="product-item">
+                            <article class="items">
+                                <div id="img-container">
+                                    <img src="../IMAGES/catalog/women/floralD.jpeg" title="Floral Dress" class="iImage">
+                                </div>
+                                <div id="item-heading">
+                                    <h4 class="iName">Floral Print Mini Dress</h4>
+                                    <h5 class="iPrice">$34.99</h5>
+                                    <button class="btn-add" type="button">Add to Cart</button>
+                                </div>
+                            </article>
+                        </li>
+
+                        <li class="product-item">
+                            <article class="items">
+                                <div id="img-container">
+                                    <img src="../IMAGES/catalog/women/maroonD.jpeg" title="Maroon Dress" class="iImage">
+                                </div>
+                                <div id="item-heading">
+                                    <h4 class="iName">Wrap Design Dress</h4>
+                                    <h5 class="iPrice">$34.99</h5>
+                                    <button class="btn-add" type="button">Add to Cart</button>
+                                </div>
+                            </article>
+                        </li>
+                    
+                        <li class="product-item">
+                            <article class="items">
+                                <div id="img-container">
+                                    <img src="../IMAGES/catalog/women/greenD.jpeg" title="Green Dress" class="iImage">
+                                </div>
+                                <div id="item-heading">
+                                    <h4 class="iName">Rolled Sleeve Belted Dress</h4>
+                                    <h5 class="iPrice">$29.99</h5>
+                                    <button class="btn-add" type="button">Add to Cart</button>
+                                </div>
+                            </article>
+                        </li>
+
+                        <li class="product-item">
+                            <article class="items">
+                                <div id="img-container">
+                                    <img src="../IMAGES/catalog/women/greyD.jpeg" title="Gray Dress" class="iImage">
+                                </div>
+                                <div id="item-heading">
+                                    <h4 class="iName">Tunic Dress</h4>
+                                    <h5 class="iPrice">$37.99</h5>
+                                    <button class="btn-add" type="button">Add to Cart</button>
+                                </div>
+                            </article>
+                        </li>
+
+                        <span id="loadLess" type="submit" onclick="hideContent()">Show Less Products</span> 
+
+                    </div>
+                </ul>
+
+                <span id="loadMore" type="submit" onclick="showContent()">Show More Products</span>
+
+                <p id="end"> <a href="#topOfPage" title="go to the top"><img src="../IMAGES/catalog/main/up-arrow.png"> Back to top</a></p>
+
+            </section>
+       
+        </div>
+
+
+        <footer>
+            <section  class="foot-contain">
+            <div id="fbook">
+                <a href="https://www.facebook.com/" target="_blank"><img src="../IMAGES/HOME/facebook_color.png"></a>
+            </div>
+            <div id="twit">
+                <a href="https://twitter.com/explore" target="_blank"><img src="../IMAGES/HOME/twitter_color.png"></a>
+            </div>
+            <div id="utube">
+                <a href="https://www.youtube.com" target="_blank"><img src="../IMAGES/HOME/youtube_color.png"></a>
+            </div>
+            <div id="insta">
+                <a href="https://www.instagram.com/" target="_blank"><img src="../IMAGES/HOME/instagram_color.png"></a>
+            </div>
+        </section>
+            
+            <div id="created">
+                <p>Created by RAJAN VANIKAR</p>
+            </div>
+
+        </footer>
+        
+    </body>
+
+    <script src="../JS/men.js"></script>
+</html>
